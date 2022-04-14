@@ -1,0 +1,10 @@
+public class CastingToInt extends ConsoleProgram
+{
+    public void run()
+    {
+        int total = 22;
+        int number = 7;
+        int sum = total/number;
+        System.out.println(sum);
+    }
+}
