@@ -1,0 +1,17 @@
+public class AboutYou extends ConsoleProgram
+{
+    public void run()
+    {
+        String favoriteFood = readLine("What is your favorite food? ");
+        
+        String favoriteColor = readLine("What is your favorite color? ");
+        
+        String favoriteMovie = readLine("What is your favorite movie? ");
+        
+        String food = readLine("pasta");
+        
+        String color = readLine("green");
+        
+        String movie = readLine("The Lego Movie");
+    }
+}
