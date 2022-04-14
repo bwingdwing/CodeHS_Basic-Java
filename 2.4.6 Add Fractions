@@ -1,0 +1,14 @@
+public class AddFractions extends ConsoleProgram
+{
+    public void run()
+    {
+        int numeratorFraction = readInt("What is the numerator of the first fraction?");
+        int denominatorFraction = readInt("What is the denominator of the first fraction?");
+        int numeratorFractionSec = readInt("What is the numerator of the second fraction?");
+        int denominatorFractionSec = readInt("What is the denominator of the second fraction?");
+        int Addednumerator = numeratorFraction*denominatorFractionSec+denominatorFraction*numeratorFractionSec;
+        int Addeddenominator = denominatorFraction*denominatorFractionSec;
+       
+        System.out.println("The sum of " + numeratorFraction + "/" + denominatorFraction + " + " + numeratorFractionSec + "/" + denominatorFractionSec + " = " + Addednumerator + "/" + Addeddenominator);
+    }
+}
