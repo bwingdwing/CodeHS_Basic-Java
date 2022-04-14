@@ -1,0 +1,20 @@
+public class Poetry extends ConsoleProgram
+{
+    public void run()
+    {
+        System.out.println("This is a haiku");
+        System.out.println("I am writing one");
+        System.out.println("To learn java");
+        
+        System.out.println("This is an acrostic poem");
+        System.out.println("I dont really know why");
+        System.out.println("But this serves beneficial");
+        System.out.println("I guess in one way or");
+        System.out.println("another. Here is the fifth line");
+        
+        String line1 = readLine("Enter your poem:");
+        
+        String poem = line1;
+        System.out.println(poem);
+    }
+}
