@@ -1,0 +1,8 @@
+public class IceCream extends ConsoleProgram
+{
+    public void run()
+    {
+        Boolean doYouLikeYourIceCream = readBoolean("Do you like your ice cream? ");
+        System.out.println(doYouLikeYourIceCream);
+    }
+}
