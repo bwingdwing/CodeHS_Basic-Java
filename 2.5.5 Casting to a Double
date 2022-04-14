@@ -1,0 +1,10 @@
+public class CastingToDouble extends ConsoleProgram
+{
+    public void run()
+    {
+        int number = 3;
+        int huge = 4;
+        double average = number / (double) huge;
+        System.out.println(average);
+    }
+}
