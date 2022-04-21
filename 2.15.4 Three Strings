@@ -1,0 +1,19 @@
+public class ThreeStrings extends ConsoleProgram
+{
+    public void run()
+    {
+        // Ask the user for three strings.
+        String first = readLine ("First String? ");
+        String second = readLine ("Second String? ");
+        String third = readLine ("Third String? ");
+        // remember to use the readLine() method.
+        if(third.contains(first) && third.contains(second))
+        {
+            System.out.println(first + " + " + second + " is equal to " + third + "!");
+        }
+        else
+        {
+            System.out.println(first + " + " + second + " is not equal to " + third + "!" );
+        }
+    }
+}
